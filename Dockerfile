@@ -42,6 +42,7 @@ RUN chmod 777 /var/www/html/uploads/
 
 #TEST
 #TEST
+#TEST
 # Configure PHP for development.
 # Switch to the production php.ini for production operations.
 # RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
