@@ -41,7 +41,7 @@ RUN sed -i 's/80/${PORT}/g' /etc/apache2/sites-available/000-default.conf /etc/a
 RUN chmod 777 /var/www/html/uploads/
 
 #TEST
-
+#TEST
 # Configure PHP for development.
 # Switch to the production php.ini for production operations.
 # RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
